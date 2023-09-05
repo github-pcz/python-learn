@@ -56,14 +56,15 @@ num = 5
 num %= 3
 print("num %= ", num)
 
+num = 2
 num **= 2
-print("num **=", num)
+print("num **=", num, type(num))
 
 num = 9
 num //= 2
-print("num //=", num)
+print("num //=", num, type(num))
 
 num = 9
 num //= 2.0
-print("num //=", num)
+print("num //=", num, type(num))
 
